@@ -11,11 +11,10 @@ int n;
 		putchar(n);
 		if (n != 57)
 		{
-			putchar(' , ');
-			putchar(' ');
+			putchar(',');
+			putchar('');
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
